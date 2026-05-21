@@ -23,7 +23,24 @@ To implement **Encapsulation** in Python by defining a class `Rectangle` with **
 ---
 
 ## 💻 Program
+~~~
+class Rectangle:
 
+    def __init__(self):
+        self.__length = 10
+        self.__breadth = 5
+
+        print("Length =", self.__length)
+        print("Breadth =", self.__breadth)
+
+
+obj = Rectangle()
+~~~
 ## Output
+~~~
+Length = 10
+Breadth = 5
+~~~
 
 ## Result
+Thus, the Python program demonstrating encapsulation using private member variables was executed successfully.
